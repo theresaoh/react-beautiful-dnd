@@ -6950,9 +6950,9 @@ function reset$1() {
   count$1 = 0;
 }
 function useInstanceCount() {
-  return useMemo(function () {
-    return "" + count$1++;
-  }, []);
+  // return useMemo(function () {
+  //   return "" + count$1++;
+  // }, []);
 }
 
 function resetServerContext() {
