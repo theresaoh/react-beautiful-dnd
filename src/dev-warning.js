@@ -16,7 +16,7 @@ const getDevMessage = (message: string): string =>
 
   %c${clean(message)}
 
-  %c👷‍ This is a development only message. It will be removed in production builds.
+  %c👷‍ This is a development only message. It will be removed in production builds. Some changes.
 `);
 
 export const getFormattedMessage = (message: string): string[] => [
