@@ -5442,7 +5442,7 @@ function useHiddenTextElement(_ref2) {
 var AppContext = React.createContext(null);
 
 var peerDependencies = {
-	react: "^16.8.5 || ^17.0.0",
+	react: "^16.13.1",
 	"react-dom": "^16.8.5 || ^17.0.0"
 };
 
@@ -6950,9 +6950,9 @@ function reset$1() {
   count$1 = 0;
 }
 function useInstanceCount() {
-  // return useMemo(function () {
-  //   return "" + count$1++;
-  // }, []);
+  return useMemo(function () {
+    return "" + count$1++;
+  }, []);
 }
 
 function resetServerContext() {
