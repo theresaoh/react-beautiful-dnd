@@ -18,7 +18,7 @@ var clean = function clean(value) {
 };
 
 var getDevMessage = function getDevMessage(message) {
-  return clean("\n  %creact-beautiful-dnd\n\n  %c" + clean(message) + "\n\n  %c\uD83D\uDC77\u200D This is a development only message. It will be removed in production builds. Some changes.\n");
+  return clean("\n  %creact-beautiful-dnd\n\n  %c" + clean(message) + "\n\n  %c\uD83D\uDC77\u200D This is a development only message. It will be removed in production builds. What happens now?\n");
 };
 
 var getFormattedMessage = function getFormattedMessage(message) {

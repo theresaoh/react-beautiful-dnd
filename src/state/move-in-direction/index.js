@@ -43,7 +43,7 @@ export default ({ state, type }: Args): ?PublicResult => {
     (direction === 'vertical' &&
       (type === 'MOVE_UP' || type === 'MOVE_DOWN')) ||
     (direction === 'horizontal' &&
-      (type === 'MOVE_LEFT' || type === 'MOVE_RIGHT'));
+      (type === 'MOVE_LEFT' || type === 'MOVE_RIGHT' || type === 'MOVE_UP' || type === 'MOVE_DOWN'));
 
   // This movement is not permitted right now
   if (isMovingOnMainAxis && !isMainAxisMovementAllowed) {
